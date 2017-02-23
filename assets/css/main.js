@@ -5,8 +5,12 @@ function imprimir() {
 	var dni = document.getElementById("dni").value;
 	var direccion = document.getElementById("direccion").value; 
 
-	if(nombre != "" && apellido != "" && dni != "" && direccion != ""){
-		return imprime.innerHTML = "<li>Nombre :" + nombre + "</li>" +  "<li>Apellido : " + apellido + "</li>"  + "<li>DNI : " + dni  + "</li>" + "<li>Dirección : " +
-direccion + "</li>";
-	}
+	//if(nombre != "" && apellido != "" && dni != "" && direccion != ""){
+		imprime.innerHTML = "<li>Nombre :" + nombre + 
+		"</li>" +  "<li>Apellido : " + apellido + "</li>"  +
+		 "<li>DNI : " + dni  + "</li>" + "<li>Dirección : " + 
+		direccion + "</li>";
+	//}
+
+ 	
 }
