@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Laboratoria ejercicio 1</title>
+</head>
+<body style="text-align: center;">
+	<img src="assets/images/2.jpg" alt="" width="500" align="right">
+	<h1>Formulario de adopción</h1>
+	<p>Si deseas adoptar un gato, dejanos tus datos. No nos llames, nosotros te llamamos.</p>
+	
+	<section>
+		<form onsubmit="return false" action="">
+	<label for="Nombre">Ingresa tu nombre:</label><br/>
+	<input id="nombre" type="text" required=""> <br/><br/>
+
+	<label for="apellido">Ingresa tu apellido:</label><br/>
+	<input type="text" id = "apellido" required=""><br/><br/>
+
+	<label for="dni">Ingresa tu DNI:</label><br/>
+	<input id="dni" type="text" maxlength="8" pattern="[0-9]{8}" required=""><br/><br/>
+
+	<label for="direccion">Ingresa tu dirección:</label><br/>
+	<input type="text" id="direccion" required=""><br/><br/>
+
+	<button type="button" onclick="imprimir(); return false ">Enviar Datos</button><br/><br<br/><br>
+
+	<img src="assets/images/3.jpg" alt="" width="400" align="center">
+	<img src="assets/images/1.jpg" alt="" width="400" align="right">
+	<div id="Formulario"></div>	
+
+
+		</form>
+	</section>
+	<script  src = "assets/css/main.js" type="text/javascript"></script>
+
+</body>
+</html>
